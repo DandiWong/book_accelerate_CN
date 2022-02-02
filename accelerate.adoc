@@ -22,8 +22,8 @@
 :pdf-theme: accelerate
 :doctype: book
 :title-page-background-image: image:accelerate.png[]
-:page-background-image: image:bg.png[]
-//:page-foreground-image: image:watermark.svg[]
+// :page-background-image: image:bg.png[]
+:page-foreground-image: image:bg.png[]
 = 加速: 高效能技术组织的构建与规模化
 
 // include::book/cover.pdf[]

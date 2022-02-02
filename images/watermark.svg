@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="420px" height="595px" viewBox="0 0 420 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>A5备份</title>
-    <g id="A5备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.691683683" font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" line-spacing="80">
-        <g id="样本-Sample-样本-Sample-2" transform="translate(233.000000, 338.000000) rotate(-30.000000) translate(-233.000000, -338.000000) translate(-97.000000, -83.000000)" fill="#E5E5E5">
+    <title>样本 Sample 样本 Sample 2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.7" font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" line-spacing="80">
+        <g id="样本-Sample-样本-Sample-2" fill="#B0B0B0" transform="translate(233.000000, 338.000000) rotate(-30.000000) translate(-233.000000, -338.000000) translate(-97.000000, -83.000000)">
             <text id="样本-Sample-样本-Sample">
-                <tspan x="-2.27373675e-13" y="34">        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="114">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="194">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="274">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="354">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="434">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="514">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="594">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="674">Sample        样本         Sample        样本         </tspan>
-                <tspan x="-2.27373675e-13" y="754">Sample</tspan>
+                <tspan x="2.27373675e-13" y="34">        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="114">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="194">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="274">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="354">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="434">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="514">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="594">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="674">Sample        样本         Sample        样本         </tspan>
+                <tspan x="2.27373675e-13" y="754">Sample</tspan>
             </text>
         </g>
     </g>
