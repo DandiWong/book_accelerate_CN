@@ -1,9 +1,0 @@
-[appendix]
-=== 快速指引：驱动改进的技能
-
-[appendix]
-=== The Stats
-
-[appendix]
-=== 研究中用到的统计方法
-

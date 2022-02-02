@@ -1,0 +1,74 @@
+:encoding: utf-8
+:scripts: cjk
+:icons: font
+:stem: latexmath
+:source-highlighter: pygments
+:pygments-css: class
+:pygments-style: material
+:pygments-linenums-mode: inline
+:sourcedir: src
+:includedir: includes
+:imagesdir: images
+:title-logo-image: image:logo.png[]
+:toc: left
+:toc-title: 目录
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:sectanchors:
+:figure-caption: 图
+:table-caption: 表格
+:appendix-caption: 附录
+:chapter-signifier: 章节
+:pdf-theme: custom
+:doctype: article
+:author: Dandi Wong
+:email: DandiToCoach@gmail.com
+:organization: 无
+:revdate: 2022-02-02
+:revnumber: 0.1
+:revremark: Alpha
+//:title-page-background-image: image:cover.png[]
+//:page-background-image: image:bg.png[]
+//:page-foreground-image: image:watermark.svg[]
+= README
+
+本项目为 DevOps 类书籍 link:https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/[__Accelerate__] 的中文译本，考虑到保护原作者的版权，欢迎出版社联系原作者进行联合出版发行。
+
+目前翻译效果及进度见 xref:accelerate.pdf[]
+
+== 介绍
+
+* `accelerate.adoc` 为本书大纲文件，用于最终生成书籍文件。内容根据其章节及属性放置在 `book/` 文件夹下，同时也方便协作翻译。
+* 本书使用 `AsciiDoc` 作为源格式，使用 `asciidoctor` 与 `asciidoctor-pdf` 进行文档格式转换。
+* 使用 `asciidoctor-pdf` 进行转换时所使用的版式（包含字体与排版）为本人 自定义配置，已内置在本人的另一个项目 link:https://github.com/DandiWong/vim-asciidoctor[Vim-asciidoctor] 中。
+
+== 参与翻译
+
+* 最直接的方式就是 fork 本项目后把你自己感兴趣的章节（已经拆分成单个 `.adoc` 文件）的内容翻译完毕后向我提交 merge request，我校对后合并入主干。
+* 提交 merge request 时请附上你的邮箱地址，合并后我会将生成的最新 PDF 发送到你的 github 邮箱。
+
+== 自行生成 PDF
+
+因为本人是依照自己的文档工具链习惯做的这一套设定，所以如果你想自行生成 PDF 的话，请按如下方式：
+
+[source%linenums,Bash Session]
+----
+$ gem install asciidoctor asciidoctor-pdf asciidoctor-diagram
+$ mkdir Accelerate && cd Accelerate
+$ git clone https://github.com/DandiWong/book_accelerate_CN.git
+$ git clone https://github.com/DandiWong/vim-asciidoctor.git
+$ cd book_accelerate_CN
+$ asciidoctor-pdf -r asciidoctor-diagram -a pdf-themesdir='../vim-asciidoctor/assets/themes' -a pdf-fontsdir='../vim-asciidoctor/assets/fonts' accelerate.adoc
+----
+
+如果报下面错误可以无视，不影响 PDF 的正常输出：
+
+[source%linenums,Shell]
+----
+asciidoctor: ERROR: accelerate.adoc: line 81: invalid part, must have at least one section (e.g., chapter, appendix, etc.)
+----
+
+== 最后
+
+欢迎有意向的出版机构联系：DandiToCoach@gmail.com

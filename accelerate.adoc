@@ -7,17 +7,17 @@
 :pygments-style: material
 :pygments-linenums-mode: inline
 :sourcedir: src
-:includedir: includes
 :imagesdir: images
 :toc: left
 :toc-title: 目录
 :toclevels: 3
+:partnums: 
 :sectnums: 
 :sectnumlevels: 3
-:sectanchors:
 :figure-caption: 图
 :table-caption: 表格
 :appendix-caption: 附录
+:part-signifier: 
 :chapter-signifier: 章节
 :pdf-theme: accelerate
 :doctype: book
@@ -26,30 +26,70 @@
 //:page-foreground-image: image:watermark.svg[]
 = 加速: 高效能技术组织的构建与规模化
 
-// include::cover.pdf[]
+// include::book/cover.pdf[]
 
-include::colophon.adoc[]
+include::book/colophon.adoc[]
 
-include::foreword_1.adoc[]
+include::book/foreword_1.adoc[]
 
-include::foreword_2.adoc[]
+include::book/foreword_2.adoc[]
 
-include::quickreference.adoc[]
+include::book/quickreference.adoc[]
 
-include::preface.adoc[]
+include::book/preface.adoc[]
 
-include::part_1.adoc[]
+= 发现
 
-include::part_2.adoc[]
+include::book/part_1/chapter_1.adoc[]
 
-include::part_3.adoc[]
+include::book/part_1/chapter_2.adoc[]
 
-include::appendix.adoc[]
+include::book/part_1/chapter_3.adoc[]
 
-include::acknowledgments.adoc[]
+include::book/part_1/chapter_4.adoc[]
 
-include::bibliography.adoc[]
+include::book/part_1/chapter_5.adoc[]
 
-include::index.adoc[]
+include::book/part_1/chapter_6.adoc[]
 
-include::about.adoc[]
+include::book/part_1/chapter_7.adoc[]
+
+include::book/part_1/chapter_8.adoc[]
+
+include::book/part_1/chapter_9.adoc[]
+
+include::book/part_1/chapter_10.adoc[]
+
+include::book/part_1/chapter_11.adoc[]
+
+= 研究
+
+include::book/part_2/chapter_12.adoc[]
+
+include::book/part_2/chapter_13.adoc[]
+
+include::book/part_2/chapter_14.adoc[]
+
+include::book/part_2/chapter_15.adoc[]
+
+= 转换
+
+include::book/part_3/chapter_16.adoc[]
+
+include::book/conclusion.adoc[]
+
+= 附录
+
+include::book/appendix/appendix_1.adoc[]
+
+include::book/appendix/appendix_2.adoc[]
+
+include::book/appendix/appendix_3.adoc[]
+
+include::book/acknowledgments.adoc[]
+
+include::book/bibliography.adoc[]
+
+include::book/index.adoc[]
+
+include::book/about.adoc[]
