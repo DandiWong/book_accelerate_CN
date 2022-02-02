@@ -1,0 +1,55 @@
+:encoding: utf-8
+:scripts: cjk
+:icons: font
+:stem: latexmath
+:source-highlighter: pygments
+:pygments-css: class
+:pygments-style: material
+:pygments-linenums-mode: inline
+:sourcedir: src
+:includedir: includes
+:imagesdir: images
+:toc: left
+:toc-title: 目录
+:toclevels: 3
+:sectnums: 
+:sectnumlevels: 3
+:sectanchors:
+:figure-caption: 图
+:table-caption: 表格
+:appendix-caption: 附录
+:chapter-signifier: 章节
+:pdf-theme: accelerate
+:doctype: book
+:title-page-background-image: image:accelerate.png[]
+:page-background-image: image:bg.png[]
+//:page-foreground-image: image:watermark.svg[]
+= 加速: 高效能技术组织的构建与规模化
+
+// include::cover.pdf[]
+
+include::colophon.adoc[]
+
+include::foreword_1.adoc[]
+
+include::foreword_2.adoc[]
+
+include::quickreference.adoc[]
+
+include::preface.adoc[]
+
+include::part_1.adoc[]
+
+include::part_2.adoc[]
+
+include::part_3.adoc[]
+
+include::appendix.adoc[]
+
+include::acknowledgments.adoc[]
+
+include::bibliography.adoc[]
+
+include::index.adoc[]
+
+include::about.adoc[]
